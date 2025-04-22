@@ -1,7 +1,7 @@
 <?php
 
 // starting session on the page
-session_start();                
+session_start();
 $_SESSION["username"] = "Bibek";        // initilizing specific session
 
 // unset($_SESSION["username"]);   unseting/deleting specific session data 
@@ -26,6 +26,7 @@ $_SESSION["username"] = "Bibek";        // initilizing specific session
 
     <?php
     echo $_SESSION["username"];
+
     ?>
 
 </body>
